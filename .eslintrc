@@ -1,12 +1,12 @@
 {
-  "extends": "eslint:recommended",
-  "parser": "babel-eslint",
   "env": {
-    "node": true,
+    "node": true
   },
+  "extends": "eslint:recommended",
   "globals": {
     "browser": false,
     "window": true,
     "document": true
-  }
+  },
+  "parser": "babel-eslint"
 }
